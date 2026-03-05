@@ -1,0 +1,85 @@
+supermarket-backend-spec.pdf
+generate_pdf.py
+.vscode
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis dump
+dump.rdb
+
+# ChromaDB local data
+chroma_db/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Docker
+*.log
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+
+# Jupyter (if any notebooks used for testing)
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# Secrets & keys (never commit)
+*.pem
+*.key
+*.crt
