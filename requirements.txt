@@ -18,6 +18,9 @@ redis==5.2.1
 # HTTP client (async calls to CV engine)
 httpx==0.28.1
 
+# Async file I/O
+aiofiles==24.1.0
+
 # Auth
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
